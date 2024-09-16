@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "readytoparty";
+  src: url("resources/ready-to-party.ttf") format("truetype");
+}
+
+body {
+	font-family: arial;
+	color: #666666;
+}
+
+.header-link {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.footer-title {
+	font-size: 18px;
+	font-weight: 600;
+	color: #333333;
+}
+
+.subtitle {
+	font-size: 48px;
+	font-weight: 300;
+	font-family: "readytoparty";
+	font-style: italic;
+	color: #ed7138;
+	}
+
+.button {
+	background-color: #ed7138; 
+	padding: 15px; 
+	border-radius: 10px; 
+	text-align: center; 
+	color: white;
+	font-family: "readytoparty";
+	font-style: italic;
+}
+
+.inactivedot {
+	background-color: white; 
+	border: 1px solid #666666; 
+	width: 15px; 
+	height: 15px; 
+	border-radius: 50%; 
+	display: inline-block; 
+	position: relative; 
+	bottom: 35px;
+}
+
+.activedot {
+	background-color: #ed7138; 
+	width: 18px; 
+	height: 18px; 
+	border-radius: 50%; 
+	display: inline-block; 
+	position: relative; 
+	bottom: 35px;
+}
+
+.saleitem {
+	border: 1px solid #ed7138; 
+	border-radius: 16px; 
+	text-align: center; 
+	padding: 24px 8px;
+}
